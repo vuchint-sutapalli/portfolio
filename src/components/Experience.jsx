@@ -24,13 +24,13 @@ const Experience = ({ config }) => {
 		<section className="py-24 bg-gray-50 relative z-10">
 			<div className="container mx-auto px-4">
 				<div className="max-w-4xl mx-auto">
-					<h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+					<h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] bg-clip-text text-transparent">
 						Experience
 					</h2>
 
 					<div className="relative">
 						{/* Timeline vertical line */}
-						<div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-600 to-purple-600 z-0"></div>
+						<div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] z-0"></div>
 
 						<div className="space-y-16">
 							{experience.map((exp, index) => (
@@ -47,8 +47,8 @@ const Experience = ({ config }) => {
 								>
 									{/* Dot */}
 									<div className="absolute left-4 md:left-1/2 transform -translate-x-1/2">
-										<span className="w-4 h-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full border-4 border-white shadow-lg z-10 animate-ping absolute opacity-75"></span>
-										<div className="w-4 h-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full border-4 border-white shadow-lg z-20 relative"></div>
+										<span className="w-4 h-4 bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] rounded-full border-4 border-white shadow-lg z-10 animate-ping absolute opacity-75"></span>
+										<div className="w-4 h-4 bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] rounded-full border-4 border-white shadow-lg z-20 relative"></div>
 									</div>
 
 									{/* Card */}
@@ -63,7 +63,7 @@ const Experience = ({ config }) => {
 													<h3 className="text-xl font-bold text-gray-900">
 														{exp.position}
 													</h3>
-													<p className="text-base font-semibold text-blue-600">
+													<p className="text-base font-semibold text-[hsl(var(--brand-start))]">
 														{exp.company}
 													</p>
 													<p className="text-sm text-gray-400">
@@ -85,7 +85,7 @@ const Experience = ({ config }) => {
 																<Badge
 																	key={techIndex}
 																	variant="secondary"
-																	className="bg-blue-50 text-blue-600 border-blue-200 hover:bg-blue-100 transition-colors duration-200"
+																	className="bg-blue-50 text-[hsl(var(--brand-start))] border-blue-200 hover:bg-blue-100 transition-colors duration-200"
 																>
 																	{tech}
 																</Badge>

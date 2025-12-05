@@ -23,7 +23,7 @@ const Hero = ({ config }) => {
 	};
 
 	return (
-		<section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 relative overflow-hidden pt-16">
+		<section className="min-h-screen flex items-center justify-center 	bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] relative overflow-hidden pt-16">
 			<div className="absolute inset-0 bg-black/10"></div>
 
 			<div className="container mx-auto px-4 text-center relative z-10">
@@ -61,7 +61,7 @@ const Hero = ({ config }) => {
 					<div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
 						<Button
 							size="lg"
-							className="bg-gradient-to-r from-blue-600 to-purple-600 hover:shadow-lg transition-all duration-300 text-white font-semibold px-8"
+							className="bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] hover:shadow-lg transition-all duration-300 text-white font-semibold px-8"
 							onClick={() => scrollToSection("contact")}
 						>
 							<Mail className="mr-2 h-5 w-5" />

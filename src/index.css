@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+
+@layer base {
+  :root {
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --brand-start: 40 85% 60%;
+    --brand-end: 0 85% 60%;
+  }
+
+  html.dark {
+      --primary: 0 0% 98% !important;
+      --primary-foreground: 0 5.9% 10% !important;
+      --brand-start: 40 85% 70% !important;
+      --brand-end: 0 85% 70% !important;
+  }
+}
+
+
 @theme {
   --container-center: true;
   --container-padding: 1rem;

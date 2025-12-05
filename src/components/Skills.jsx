@@ -9,7 +9,7 @@ const Skills = ({ config }) => {
 		<section className="py-20 bg-white">
 			<div className="container mx-auto px-4">
 				<div className="max-w-6xl mx-auto">
-					<h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+					<h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] bg-clip-text text-transparent">
 						Skills & Technologies
 					</h2>
 
@@ -24,7 +24,7 @@ const Skills = ({ config }) => {
 							>
 								<Card className="border-gray-200 shadow-lg hover:shadow-2xl transition-all duration-300 bg-white backdrop-blur-sm group">
 									<CardHeader>
-										<CardTitle className="text-xl font-semibold text-center bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent group-hover:scale-105 transition-transform duration-300">
+										<CardTitle className="text-xl font-semibold text-center bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] bg-clip-text text-transparent group-hover:scale-105 transition-transform duration-300">
 											{skillGroup.category}
 										</CardTitle>
 									</CardHeader>

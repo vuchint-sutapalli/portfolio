@@ -12,7 +12,7 @@ const Projects = ({ config }) => {
 		<section id="projects" className="py-20 bg-white">
 			<div className="container mx-auto px-4">
 				<div className="max-w-6xl mx-auto">
-					<h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+					<h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] bg-clip-text text-transparent">
 						Featured Projects
 					</h2>
 
@@ -46,7 +46,7 @@ const Projects = ({ config }) => {
 									</div>
 
 									<CardHeader>
-										<CardTitle className="text-xl font-semibold group-hover:text-blue-600 transition-colors duration-200 group-hover:-translate-y-1">
+										<CardTitle className="text-xl font-semibold group-hover:text-[hsl(var(--brand-start))] transition-colors duration-200 group-hover:-translate-y-1">
 											{project.title}
 										</CardTitle>
 									</CardHeader>
@@ -61,7 +61,7 @@ const Projects = ({ config }) => {
 												<Badge
 													key={techIndex}
 													variant="outline"
-													className="border-blue-200 text-blue-600 hover:bg-blue-50"
+													className="border-blue-200 text-[hsl(var(--brand-start))] hover:bg-blue-50"
 												>
 													{tech}
 												</Badge>
@@ -87,7 +87,7 @@ const Projects = ({ config }) => {
 
 											<Button
 												size="sm"
-												className="bg-gradient-to-r from-blue-600 to-purple-600 hover:shadow-lg hover:scale-105 transition-transform duration-300"
+												className="bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] hover:shadow-lg hover:scale-105 transition-transform duration-300"
 												asChild
 											>
 												<a

@@ -3,15 +3,7 @@
 /* CSS Custom Properties for Consistent Theming */
 :root {
   /* Brand Colors */
-  --color-primary: #3b82f6; /* Blue-500 */
-  --color-primary-dark: #1d4ed8; /* Blue-700 */
-  --color-primary-light: #93c5fd; /* Blue-300 */
-  --color-secondary: #8b5cf6; /* Violet-500 */
-  --color-secondary-dark: #7c3aed; /* Violet-600 */
   
-  /* Gradient Colors */
-  --gradient-primary: linear-gradient(135deg, #3b82f6, #8b5cf6);
-  --gradient-hero: linear-gradient(135deg, #1f2937 0%, #3b4b8c 35%, #6b46c1 100%);
   
   /* Typography */
   --font-size-xs: 0.75rem;

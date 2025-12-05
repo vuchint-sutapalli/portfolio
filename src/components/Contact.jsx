@@ -11,7 +11,7 @@ const Contact = ({ config }) => {
 		<section id="contact" className="py-20 bg-gray-50">
 			<div className="container mx-auto px-4">
 				<div className="max-w-4xl mx-auto">
-					<h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+					<h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] bg-clip-text text-transparent">
 						Get In Touch
 					</h2>
 
@@ -56,7 +56,7 @@ const Contact = ({ config }) => {
 										},
 									].map(({ icon, label, value, href }, idx) => (
 										<div key={idx} className="text-center space-y-2">
-											<div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto hover:scale-110 transition-transform duration-300">
+											<div className="w-12 h-12 bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] rounded-full flex items-center justify-center mx-auto hover:scale-110 transition-transform duration-300">
 												{React.cloneElement(icon, {
 													className: "h-6 w-6 text-white",
 												})}
@@ -65,7 +65,7 @@ const Contact = ({ config }) => {
 											{href ? (
 												<a
 													href={href}
-													className="text-gray-600 hover:text-blue-600 transition-colors duration-200 block"
+													className="text-gray-600 hover:text-[hsl(var(--brand-start))] transition-colors duration-200 block"
 												>
 													{value}
 												</a>
@@ -79,7 +79,7 @@ const Contact = ({ config }) => {
 								<div className="flex justify-center pt-6">
 									<Button
 										size="lg"
-										className="bg-gradient-to-r from-blue-600 to-purple-600 hover:shadow-xl hover:scale-105 transition-all duration-300 px-8"
+										className="bg-gradient-to-r from-[hsl(var(--brand-start))] to-[hsl(var(--brand-end))] hover:shadow-xl hover:scale-105 transition-all duration-300 px-8"
 										asChild
 									>
 										<a href={personal.resume} download>
