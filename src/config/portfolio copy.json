@@ -1,0 +1,111 @@
+{
+	"personal": {
+		"name": "Alex Rodriguez",
+		"title": "Full Stack Web Developer",
+		"tagline": "Crafting digital experiences with modern technologies",
+		"bio": "I'm a passionate full-stack developer with 5+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful solutions that provide exceptional user experiences.",
+		"email": "alex@example.com",
+		"phone": "+1 (555) 123-4567",
+		"location": "San Francisco, CA",
+		"resume": "/resume.pdf"
+	},
+	"social": {
+		"github": "https://github.com/alexdev",
+		"linkedin": "https://linkedin.com/in/alexdev",
+		"twitter": "https://twitter.com/alexdev",
+		"portfolio": "https://alexdev.com"
+	},
+	"skills": [
+		{
+			"category": "Frontend",
+			"technologies": [
+				"React",
+				"Vue.js",
+				"TypeScript",
+				"Tailwind CSS",
+				"Next.js"
+			]
+		},
+		{
+			"category": "Backend",
+			"technologies": ["Node.js", "Python", "PostgreSQL", "MongoDB", "Redis"]
+		},
+		{
+			"category": "Tools & DevOps",
+			"technologies": ["Docker", "AWS", "Git", "Webpack", "Jest"]
+		}
+	],
+	"projects": [
+		{
+			"id": 1,
+			"title": "E-commerce Platform",
+			"description": "A modern e-commerce solution built with React and Node.js, featuring real-time inventory management and payment processing.",
+			"technologies": ["React", "Node.js", "PostgreSQL", "Stripe"],
+			"github": "https://github.com/alexdev/ecommerce",
+			"demo": "https://ecommerce-demo.com",
+			"image": "/project1.jpg",
+			"featured": true
+		},
+		{
+			"id": 2,
+			"title": "Task Management App",
+			"description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+			"technologies": ["Vue.js", "Express", "Socket.io", "MongoDB"],
+			"github": "https://github.com/alexdev/taskapp",
+			"demo": "https://taskapp-demo.com",
+			"image": "/project2.jpg",
+			"featured": true
+		},
+		{
+			"id": 3,
+			"title": "Weather Dashboard",
+			"description": "A responsive weather dashboard with location-based forecasts, interactive maps, and historical weather data visualization.",
+			"technologies": ["React", "D3.js", "Weather API"],
+			"github": "https://github.com/alexdev/weather",
+			"demo": "https://weather-demo.com",
+			"image": "/project3.jpg",
+			"featured": false
+		}
+	],
+	"experience": [
+		{
+			"id": 1,
+			"company": "TechCorp Solutions",
+			"position": "Senior Full Stack Developer",
+			"duration": "2022 - Present",
+			"description": "Lead development of scalable web applications using React, Node.js, and AWS. Mentored junior developers and architected microservices infrastructure.",
+			"technologies": ["React", "Node.js", "AWS", "PostgreSQL", "Docker"]
+		},
+		{
+			"id": 2,
+			"company": "StartupXYZ",
+			"position": "Full Stack Developer",
+			"duration": "2020 - 2022",
+			"description": "Built and maintained e-commerce platform serving 10k+ users. Implemented payment systems and real-time inventory management.",
+			"technologies": ["Vue.js", "Express", "MongoDB", "Stripe API"]
+		},
+		{
+			"id": 3,
+			"company": "Digital Agency Pro",
+			"position": "Frontend Developer",
+			"duration": "2018 - 2020",
+			"description": "Developed responsive websites and web applications for various clients. Collaborated with design teams to implement pixel-perfect interfaces.",
+			"technologies": ["JavaScript", "React", "Sass", "WordPress"]
+		},
+		{
+			"id": 4,
+			"company": "Freelance",
+			"position": "Web Developer",
+			"duration": "2017 - 2018",
+			"description": "Provided web development services to small businesses. Created custom websites and helped clients establish their online presence.",
+			"technologies": ["HTML", "CSS", "JavaScript", "PHP"]
+		}
+	],
+	"theme": {
+		"colors": {
+			"primary": "hsl(236, 72%, 79%)",
+			"secondary": "hsl(264, 68%, 70%)",
+			"accent": "hsl(280, 60%, 65%)"
+		}
+	}
+}

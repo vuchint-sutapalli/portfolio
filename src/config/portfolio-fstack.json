@@ -1,0 +1,135 @@
+{
+	"personal": {
+		"name": "Vuchint Sutapalli",
+		"title": "Full Stack Web Developer",
+		"tagline": "Crafting digital experiences with modern technologies",
+		"bio": "I'm a passionate full-stack developer with 3+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful solutions that provide exceptional user experiences.",
+		"email": "vuchint.sutapalli@gmail.com",
+		"phone": "+91 8466950960",
+		"location": "Bangalore, India",
+		"resume": "/Resume.pdf"
+	},
+	"social": {
+		"github": "https://github.com/vuchint-sutapalli",
+		"linkedin": "https://www.linkedin.com/in/vuchint-sutapalli/",
+		"portfolio": "https://www.vuchint.com",
+		"email": "vuchint.sutapalli@gmail.com"
+	},
+	"skills": [
+		{
+			"category": "Languages & Frameworks",
+			"technologies": [
+				"JavaScript",
+				"TypeScript",
+				"React",
+				"Next.js",
+				"React Hooks",
+				"Redux / Context API",
+				"Node.js",
+				"REST APIs"
+			]
+		},
+		{
+			"category": "Tools & Technical Capabilities",
+			"technologies": [
+				"Prisma ORM",
+				"WebSockets",
+				"Docker",
+				"Git",
+				"CI/CD (GitHub Actions)",
+				"Playwright",
+				"Web Performance Optimization"
+			]
+		},
+		{
+			"category": "UI/UX & Design Systems",
+			"technologies": ["Tailwind CSS", "Accessibility (a11y)"]
+		},
+		{
+			"category": "Soft Skills",
+			"technologies": [
+				"Cross-functional collaboration",
+				"Problem solving",
+				"Technical ownership",
+				"Time management"
+			]
+		}
+	],
+	"projects": [
+		{
+			"id": 1,
+			"title": "Realtime Collaborative Drawing Tool — Excalidraw-style",
+			"description": "Realtime collaborative drawing application with synced editing, comments, room-based persistence, PNG/JSON import-export, and scalable monorepo.",
+			"technologies": [
+				"Next.js",
+				"TypeScript",
+				"WebSockets",
+				"Node.js",
+				"Neon DB",
+				"Nginx"
+			],
+			"github": "https://github.com/vuchint-sutapalli/excalidraw-shared",
+			"demo": "https://slategpt.app/",
+			"image": "/slategpt.png",
+			"featured": true
+		},
+		{
+			"id": 2,
+			"title": "Turn-Based Real-Time Board Games Platform",
+			"description": "Multiplayer platform for chess, tic-tac-toe, snakes & ladders with a pluggable game engine architecture and real-time synchronization.",
+			"technologies": [
+				"React",
+				"TypeScript",
+				"Node.js",
+				"WebSockets",
+				"OOP Architecture"
+			],
+			"github": "https://github.com/vuchint-sutapalli/board-games",
+			"demo": "https://board-games-zeta.vercel.app/",
+			"image": "/boardgames.png",
+			"featured": true
+		}
+	],
+	"experience": [
+		{
+			"id": 1,
+			"company": "UpGrad",
+			"position": "Frontend Engineer",
+			"duration": "2019 - 2022",
+			"description": "Worked across multiple product lines to modernize the learning ecosystem, improve web performance, and deliver reliable platform-wide UX.",
+			"bullets": [
+				"Built React-based Timed Quiz Platform handling 50,000+ monthly assessments with autosave, timers, and auto-evaluation.",
+				"Led migration of legacy Backbone.js platform to React improving load time by ~40% and mobile UX while ensuring WCAG accessibility.",
+				"Designed and built Student Data Platform using React, Formik and Yup, reducing manual operational workload by 60% and managing regression cycles with QA."
+			],
+			"technologies": [
+				"React",
+				"TypeScript",
+				"Formik",
+				"Yup",
+				"Web Performance",
+				"Jira",
+				"CI/CD"
+			]
+		},
+		{
+			"id": 2,
+			"company": "Samsung R&D Institute",
+			"position": "Software Engineering Intern",
+			"duration": "Jan 2018 - Jun 2018",
+			"description": "Developed tooling and dashboards to automate debugging and real-time anomaly monitoring.",
+			"bullets": [
+				"Developed C++ based log analyzer with rule-based anomaly detection reducing debugging time by 70%.",
+				"Built React + Chart.js monitoring dashboard and SMTP-based alert system for real-time escalation of critical events."
+			],
+			"technologies": ["C++", "React", "Chart.js", "SMTP"]
+		}
+	],
+	"theme": {
+		"colors": {
+			"primary": "hsl(236, 72%, 79%)",
+			"secondary": "hsl(264, 68%, 70%)",
+			"accent": "hsl(280, 60%, 65%)"
+		}
+	}
+}

@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --container-center: true;
+  --container-padding: 1rem;
+  --container-padding-sm: 2rem;
+  --container-padding-lg: 4rem;
+  --container-padding-xl: 5rem;
+  --container-padding-2xl: 6rem;
+}
+
+/* Reset and base styles for portfolio */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  color: #1f2937;
+  font-synthesis: none;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Remove default button styles to let Tailwind handle them */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Link styles */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Remove default margins from headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* Remove default margins from paragraphs */
+p {
+  margin: 0;
+}

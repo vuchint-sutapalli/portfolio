@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  # Development service
+  portfolio-dev:
+    build:
+      context: .
+      target: builder
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: npm run dev
+    profiles:
+      - dev
+
+  # Production service
+  portfolio-prod:
+    build:
+      context: .
+      target: production
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    profiles:
+      - prod
+
+  # Reverse proxy with SSL (optional)
+  nginx-proxy:
+    image: nginx:alpine
+    ports:
+      - "443:443"
+    volumes:
+      - ./ssl:/etc/nginx/ssl:ro
+      - ./nginx-proxy.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - portfolio-prod
+    profiles:
+      - prod-ssl
+
+networks:
+  default:
+    name: portfolio-network

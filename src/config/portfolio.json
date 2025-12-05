@@ -1,0 +1,134 @@
+{
+	"personal": {
+		"name": "vuchint sutapalli",
+		"title": "Full Stack Web Developer",
+		"tagline": "Crafting digital experiences with modern technologies",
+		"bio": "I'm a passionate full-stack developer with 3+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful solutions that provide exceptional user experiences.",
+		"email": "vuchint.sutapalli@gmail.com",
+		"phone": "+91 8466950960",
+		"location": "Bangalore, India",
+		"resume": "/resume.pdf"
+	},
+	"social": {
+		"github": "https://github.com/vuchint-sutapalli",
+		"linkedin": "https://www.linkedin.com/in/vuchint-sutapalli/",
+		"portfolio": "www.vuchint.com",
+		"email": "vuchint.sutapalli@gmail.com"
+	},
+	"skills": [
+		{
+			"category": "Languages & Frameworks",
+			"technologies": [
+				"JavaScript (ES6+)",
+				"HTML5",
+				"CSS3",
+				"Sass",
+				"React",
+				"Next.js",
+				"Redux",
+				"Node.js"
+			]
+		},
+		{
+			"category": "Tools & technical capabilities",
+			"technologies": [
+				"High-Level Design (HLD)",
+				"Modular Component Design and Development",
+				"API Design",
+				"Git",
+				"Docker"
+			]
+		},
+		{
+			"category": "UI/UX & Design Systems",
+			"technologies": ["Storybook", "Tailwind CSS", "shadcn/ui"]
+		},
+		{
+			"category": "Soft Skills",
+			"technologies": [
+				"Cross-functional collaboration",
+				"Technical leadership",
+				"Problem solving",
+				"Time management"
+			]
+		}
+	],
+	"projects": [
+		{
+			"id": 1,
+			"title": "E-commerce Platform",
+			"description": "A modern e-commerce solution built with React and Node.js, featuring real-time inventory management and payment processing.",
+			"technologies": ["React", "Node.js", "PostgreSQL", "Stripe"],
+			"github": "https://github.com/alexdev/ecommerce",
+			"demo": "https://ecommerce-demo.com",
+			"image": "/project1.jpg",
+			"featured": true
+		},
+		{
+			"id": 2,
+			"title": "Task Management App",
+			"description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+			"technologies": ["Vue.js", "Express", "Socket.io", "MongoDB"],
+			"github": "https://github.com/alexdev/taskapp",
+			"demo": "https://taskapp-demo.com",
+			"image": "/project2.jpg",
+			"featured": true
+		},
+		{
+			"id": 3,
+			"title": "Weather Dashboard",
+			"description": "A responsive weather dashboard with location-based forecasts, interactive maps, and historical weather data visualization.",
+			"technologies": ["React", "D3.js", "Weather API"],
+			"github": "https://github.com/alexdev/weather",
+			"demo": "https://weather-demo.com",
+			"image": "/project3.jpg",
+			"featured": false
+		}
+	],
+	"experience": [
+		{
+			"id": 1,
+			"company": "Upgrad",
+			"position": "Frontend Engineer",
+			"duration": "Jan 2019 - 2022",
+			"description": "Lead development of scalable web applications using React, Node.js, and AWS. Mentored junior developers and architected microservices infrastructure.",
+			"bullets": [
+				"Built and maintained scalable APIs using Node.js and Express.",
+				"Led UI development using React for a product with 10K+ users.",
+				"Implemented CI/CD workflows using GitHub Actions."
+			],
+			"technologies": ["React", "Node.js", "AWS", "PostgreSQL", "Docker"]
+		},
+		{
+			"id": 2,
+			"company": "StartupXYZ",
+			"position": "Full Stack Developer",
+			"duration": "2020 - 2022",
+			"description": "Built and maintained e-commerce platform serving 10k+ users. Implemented payment systems and real-time inventory management.",
+			"technologies": ["Vue.js", "Express", "MongoDB", "Stripe API"]
+		},
+		{
+			"id": 3,
+			"company": "Digital Agency Pro",
+			"position": "Frontend Developer",
+			"duration": "2018 - 2020",
+			"description": "Developed responsive websites and web applications for various clients. Collaborated with design teams to implement pixel-perfect interfaces.",
+			"technologies": ["JavaScript", "React", "Sass", "WordPress"]
+		},
+		{
+			"id": 4,
+			"company": "Freelance",
+			"position": "Web Developer",
+			"duration": "2017 - 2018",
+			"description": "Provided web development services to small businesses. Created custom websites and helped clients establish their online presence.",
+			"technologies": ["HTML", "CSS", "JavaScript", "PHP"]
+		}
+	],
+	"theme": {
+		"colors": {
+			"primary": "hsl(236, 72%, 79%)",
+			"secondary": "hsl(264, 68%, 70%)",
+			"accent": "hsl(280, 60%, 65%)"
+		}
+	}
+}
